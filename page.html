@@ -1,0 +1,149 @@
+        <section class="mc-doggies" id="doggies">
+            <h2>Minecraft Doggies</h2>
+            <div class="mc-dog-gallery">
+                <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/6/6e/Wolf_JE3_BE2.png" alt="Minecraft Wolf" title="Wild Wolf">
+                <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/7e/Tamed_Wolf.png" alt="Tamed Wolf" title="Tamed Dog">
+                <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/2c/Wolf_Sitting_JE2_BE2.png" alt="Sitting Wolf" title="Sitting Dog">
+            </div>
+            <ul class="mc-dog-facts">
+                <li>Wolves can be tamed with bones and become loyal dogs.</li>
+                <li>Tamed dogs will follow and protect you from hostile mobs.</li>
+                <li>You can dye your dog's collar with any color!</li>
+                <li>Dogs will shake off water after swimming.</li>
+                <li>Right-click your dog to make it sit or stand.</li>
+            </ul>
+        </section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Ultimate Minecraft Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="minecraft.js"></script>
+</head>
+<body>
+    <nav class="mc-nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Builds</a></li>
+            <li><a href="#youtubers">YouTubers</a></li>
+            <li><a href="#tips">Tips</a></li>
+            <li><a href="#mobs">Mobs</a></li>
+            <li><a href="#facts">Facts</a></li>
+            <li><a href="#community">Community</a></li>
+        </ul>
+    </nav>
+    <div class="mc-container">
+        <header class="mc-hero" id="home">
+            <h1>⛏️ The Ultimate Minecraft Page 🟩</h1>
+            <p class="mc-subtitle">For diehard farmers, builders, and adventurers!</p>
+            <img class="mc-hero-img" src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/5e/Grass_Block_JE5_BE3.png" alt="Minecraft Grass Block">
+        </header>
+
+        <section class="mc-gallery-section" id="gallery">
+            <h2>Epic Minecraft Builds</h2>
+            <div class="mc-gallery">
+                <img src="https://www.minecraft.net/content/dam/games/minecraft/screenshots/Castle_Screenshot.png" alt="Minecraft Castle">
+                <img src="https://www.minecraft.net/content/dam/games/minecraft/screenshots/Redstone_Screenshot.png" alt="Redstone Contraption">
+                <img src="https://www.minecraft.net/content/dam/games/minecraft/screenshots/Village_Screenshot.png" alt="Minecraft Village">
+                <img src="https://www.minecraft.net/content/dam/games/minecraft/screenshots/Pixel_Art_Screenshot.png" alt="Minecraft Pixel Art">
+            </div>
+        </section>
+
+        <section class="mc-youtubers" id="youtubers">
+            <h2>Legendary Minecraft YouTubers</h2>
+            <div class="mc-youtuber-list">
+                <div class="mc-youtuber">
+                    <img src="https://yt3.googleusercontent.com/ytc/AGIKgqOQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQ=s176-c-k-c0x00ffffff-no-rj" alt="Dream">
+                    <h3><a href="https://www.youtube.com/c/Dream" target="_blank" class="mc-youtuber-link">Dream</a></h3>
+                    <p>Famous for speedruns, Manhunt, and creative Minecraft challenges.</p>
+                    <a href="https://www.youtube.com/c/Dream" target="_blank" class="mc-btn">Watch</a>
+                </div>
+                <div class="mc-youtuber">
+                    <img src="https://yt3.googleusercontent.com/ytc/AGIKgqOQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQ=s176-c-k-c0x00ffffff-no-rj" alt="Technoblade">
+                    <h3><a href="https://www.youtube.com/c/Technoblade" target="_blank" class="mc-youtuber-link">Technoblade</a></h3>
+                    <p>Legendary PvP master and beloved Minecraft content creator.</p>
+                    <a href="https://www.youtube.com/c/Technoblade" target="_blank" class="mc-btn">Watch</a>
+                </div>
+                <div class="mc-youtuber">
+                    <img src="https://yt3.googleusercontent.com/ytc/AGIKgqOQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQ=s176-c-k-c0x00ffffff-no-rj" alt="Grian">
+                    <h3><a href="https://www.youtube.com/c/Grian" target="_blank" class="mc-youtuber-link">Grian</a></h3>
+                    <p>Expert builder and Hermitcraft star, known for creative tutorials.</p>
+                    <a href="https://www.youtube.com/c/Grian" target="_blank" class="mc-btn">Watch</a>
+                </div>
+                <div class="mc-youtuber">
+                    <img src="https://yt3.googleusercontent.com/ytc/AGIKgqOQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQ=s176-c-k-c0x00ffffff-no-rj" alt="StampyLongHead">
+                    <h3><a href="https://www.youtube.com/c/stampylonghead" target="_blank" class="mc-youtuber-link">StampyLongHead</a></h3>
+                    <p>Family-friendly adventures and creative builds for all ages.</p>
+                    <a href="https://www.youtube.com/c/stampylonghead" target="_blank" class="mc-btn">Watch</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="mc-js-section" id="js">
+            <h2>JavaScript Functionality</h2>
+            <p>This page uses JavaScript for interactive features like random Minecraft tips and clickable YouTuber names. More features coming soon!</p>
+        </section>
+
+        <section class="mc-tips" id="tips">
+            <h2>Minecraft Tips & Tricks</h2>
+            <button onclick="showMinecraftTip()" class="mc-btn">Click for a Random Tip!</button>
+            <div id="mc-tip-box" class="mc-tip-box"></div>
+            <ul>
+                <li>Always carry a water bucket in the Nether.</li>
+                <li>Use torches to mark your path in caves.</li>
+                <li>Breed animals for a steady food supply.</li>
+                <li>Enchant your gear for extra power!</li>
+            </ul>
+        </section>
+
+        <section class="mc-mobs" id="mobs">
+            <h2>Iconic Mobs</h2>
+            <div class="mc-mob-list">
+                <div class="mc-mob">
+                    <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/13/Creeper_JE3_BE2.png" alt="Creeper">
+                    <h3>Creeper</h3>
+                    <p>Explosive and silent—watch out!</p>
+                </div>
+                <div class="mc-mob">
+                    <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/3/3a/Enderman_JE2_BE2.png" alt="Enderman">
+                    <h3>Enderman</h3>
+                    <p>Teleporting, block-carrying, and mysterious.</p>
+                </div>
+                <div class="mc-mob">
+                    <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/6/6e/Steve_JE3_BE2.png" alt="Steve">
+                    <h3>Steve</h3>
+                    <p>The classic Minecraft player character.</p>
+                </div>
+                <div class="mc-mob">
+                    <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/6/6e/Alex_JE2_BE2.png" alt="Alex">
+                    <h3>Alex</h3>
+                    <p>The adventurous Minecraft player character.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mc-facts" id="facts">
+            <h2>Fun Minecraft Facts</h2>
+            <ul>
+                <li>Minecraft was created by Markus Persson, aka "Notch".</li>
+                <li>It’s the best-selling video game of all time.</li>
+                <li>The world is (almost) infinite—over 4 billion km²!</li>
+                <li>There are over 300 million copies sold worldwide.</li>
+                <li>Villagers speak in a language called "Simlish".</li>
+            </ul>
+        </section>
+
+        <section class="mc-community" id="community">
+            <h2>Join the Minecraft Community</h2>
+            <p>Share your builds, tips, and stories with other fans!</p>
+            <a class="mc-btn" href="https://www.minecraft.net/en-us/community" target="_blank">Visit Official Community</a>
+        </section>
+
+        <footer class="mc-footer">
+            <p>🟩 Crafted by Minecraft fans. &copy; 2026</p>
+        </footer>
+    </div>
+</body>
+</html>

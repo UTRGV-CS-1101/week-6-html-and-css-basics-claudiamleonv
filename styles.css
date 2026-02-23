@@ -1,0 +1,284 @@
+.mc-doggies {
+	margin-top: 36px;
+	text-align: center;
+}
+.mc-dog-gallery {
+	display: flex;
+	gap: 24px;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 18px 0 18px 0;
+}
+.mc-dog-gallery img {
+	width: 100px;
+	height: 100px;
+	object-fit: contain;
+	border-radius: 12px;
+	border: 2px solid #aeea00;
+	background: #232d18;
+	image-rendering: pixelated;
+	box-shadow: 0 2px 8px #232d18;
+	transition: transform 0.2s, box-shadow 0.2s;
+}
+.mc-dog-gallery img:hover {
+	transform: scale(1.08) rotate(-2deg);
+	border-color: #4caf50;
+	box-shadow: 0 4px 16px #4caf50;
+}
+.mc-dog-facts {
+	display: inline-block;
+	text-align: left;
+	margin: 0 auto;
+	font-size: 1.08em;
+	color: #e0e0e0;
+	background: #232d18;
+	border-radius: 10px;
+	padding: 16px 24px;
+	box-shadow: 0 2px 8px #232d18;
+	border: 1.5px solid #4caf50;
+}
+
+.mc-nav {
+	background: #232d18;
+	border-bottom: 3px solid #4caf50;
+	box-shadow: 0 2px 8px rgba(34,60,18,0.12);
+	position: sticky;
+	top: 0;
+	z-index: 100;
+}
+.mc-nav ul {
+	display: flex;
+	justify-content: center;
+	gap: 32px;
+	list-style: none;
+	margin: 0;
+	padding: 0.7em 0;
+}
+.mc-nav li {
+	margin: 0;
+	padding: 0;
+}
+.mc-nav a {
+	color: #aeea00;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 1.1em;
+	letter-spacing: 0.5px;
+	padding: 6px 12px;
+	border-radius: 6px;
+	transition: background 0.2s, color 0.2s;
+}
+.mc-nav a:hover, .mc-nav a:focus {
+	background: #4caf50;
+	color: #232d18;
+}
+
+section {
+	margin-bottom: 36px;
+	padding-bottom: 12px;
+	border-bottom: 1px solid #3e522a;
+}
+.mc-hero {
+	margin-top: 18px;
+	margin-bottom: 36px;
+	border-bottom: 1px solid #3e522a;
+	padding-bottom: 18px;
+}
+.mc-youtuber-link {
+	color: #aeea00;
+	text-decoration: underline;
+	font-weight: bold;
+	transition: color 0.2s;
+}
+.mc-youtuber-link:hover {
+	color: #4caf50;
+	text-shadow: 0 0 6px #aeea00;
+}
+
+
+body {
+	font-family: 'Segoe UI', Arial, sans-serif;
+	background: linear-gradient(135deg, #1d1d1d 0%, #3e522a 100%) fixed, url('https://www.minecraft.net/content/dam/games/minecraft/key-art/Key-Art_Minecraft_1920x1080.jpg') no-repeat center top fixed;
+	background-blend-mode: multiply;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+
+.mc-container {
+	max-width: 950px;
+	margin: 40px auto;
+	background: linear-gradient(120deg, #232d18 0%, #2e3c1e 100%);
+	border-radius: 18px;
+	box-shadow: 0 4px 32px rgba(0,0,0,0.35);
+	padding: 40px 32px 24px 32px;
+	color: #e0e0e0;
+	border: 3px solid #4caf50;
+}
+
+.mc-hero {
+	text-align: center;
+	margin-bottom: 32px;
+}
+.mc-hero-img {
+	width: 120px;
+	margin: 18px auto 0 auto;
+	display: block;
+	image-rendering: pixelated;
+	border-radius: 12px;
+	box-shadow: 0 4px 18px #2e3c1e, 0 2px 12px rgba(0,0,0,0.18);
+	border: 3px solid #aeea00;
+	background: #232d18;
+}
+.mc-subtitle {
+	font-size: 1.3em;
+	color: #aeea00;
+	margin-bottom: 0.5em;
+}
+h1 {
+	color: #4caf50;
+	text-shadow: 2px 2px 0 #222, 0 0 8px #000;
+	font-size: 2.5em;
+	margin-bottom: 0.2em;
+}
+h2 {
+	color: #aeea00;
+	margin-top: 32px;
+	margin-bottom: 12px;
+	font-size: 1.6em;
+	text-shadow: 1px 1px 0 #222;
+}
+h3 {
+	color: #4caf50;
+	margin: 8px 0 4px 0;
+	font-size: 1.15em;
+}
+
+.mc-gallery-section {
+	margin-bottom: 18px;
+}
+.mc-gallery {
+	display: flex;
+	gap: 16px;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 18px 0 0 0;
+}
+.mc-gallery img {
+	width: 160px;
+	height: 120px;
+	object-fit: cover;
+	border-radius: 8px;
+	border: 3px solid #4caf50;
+	background: #232d18;
+	image-rendering: pixelated;
+	transition: transform 0.2s, box-shadow 0.2s;
+	box-shadow: 0 2px 8px #232d18;
+}
+.mc-gallery img:hover {
+	transform: scale(1.07) rotate(-2deg);
+	border-color: #aeea00;
+	box-shadow: 0 4px 16px #4caf50;
+}
+.mc-youtubers {
+	margin-top: 36px;
+}
+.mc-youtuber-list {
+	display: flex;
+	gap: 24px;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 12px;
+}
+.mc-youtuber {
+	background: #232d18;
+	border-radius: 12px;
+	box-shadow: 0 2px 12px #2e3c1e, 0 1px 4px rgba(34,34,34,0.18);
+	padding: 18px 18px 14px 18px;
+	width: 180px;
+	text-align: center;
+	margin-bottom: 12px;
+	border: 2px solid #aeea00;
+}
+.mc-youtuber img {
+	width: 72px;
+	height: 72px;
+	object-fit: cover;
+	border-radius: 50%;
+	border: 2px solid #4caf50;
+	margin-bottom: 8px;
+	background: #2e3c1e;
+}
+
+.mc-btn {
+	display: inline-block;
+	background: #4caf50;
+	color: #222;
+	padding: 12px 28px;
+	border-radius: 8px;
+	font-size: 1.1em;
+	margin-top: 12px;
+	text-decoration: none;
+	font-weight: bold;
+	border: 2px solid #aeea00;
+	box-shadow: 0 2px 8px rgba(76,175,80,0.10);
+	cursor: pointer;
+	transition: background 0.2s, color 0.2s;
+}
+.mc-btn:hover {
+	background: #aeea00;
+	color: #222;
+}
+
+.mc-tip-box {
+	text-align: center;
+	font-size: 1.15em;
+	color: #aeea00;
+	min-height: 28px;
+	margin-bottom: 12px;
+	margin-top: 8px;
+}
+
+ul {
+	font-size: 1.1em;
+	color: #e0e0e0;
+	margin-bottom: 0.5em;
+	padding-left: 1.2em;
+}
+
+.mc-mob-list {
+	display: flex;
+	gap: 24px;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 12px;
+}
+.mc-mob {
+	background: #232323;
+	border-radius: 10px;
+	box-shadow: 0 1px 4px rgba(34,34,34,0.18);
+	padding: 14px 18px;
+	width: 160px;
+	text-align: center;
+	margin-bottom: 12px;
+	border: 2px solid #4caf50;
+}
+.mc-mob img {
+	width: 64px;
+	height: 64px;
+	object-fit: contain;
+	image-rendering: pixelated;
+	margin-bottom: 8px;
+	background: #222;
+	border-radius: 6px;
+}
+
+.mc-footer {
+	text-align: center;
+	color: #aeea00;
+	font-size: 1em;
+	margin-top: 36px;
+	padding-top: 18px;
+	border-top: 1px solid #4caf50;
+	text-shadow: 1px 1px 0 #222;
+}
